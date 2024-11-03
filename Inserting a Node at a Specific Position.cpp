@@ -31,7 +31,7 @@ void insertAtPosition(node* &head,int newdata,int pos){
 	newnode->next = temp->next;
 	temp->next = newnode;
 }
-int maim(){
+int main(){
 	node* head = NULL;
 	insertAtPosition(head,1,0);
 	insertAtPosition(head,2,1);
